@@ -3,7 +3,7 @@
   "version": "5.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "ng serve --port=8080",
+    "start": "ng serve --host 18.218.187.69 --port=8080",
     "build": "ng build --prod",
     "deploy": "ng build --prod --base-href / && angular-cli-ghpages",
     "test": "ng test --watch=false --code-coverage",
