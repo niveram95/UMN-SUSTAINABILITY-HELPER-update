@@ -35,5 +35,5 @@ angular.module('app').run(appRun);
 
 angular.bootstrap(document, ['app'], {
   strictDi: true
-app.listen(8080, '172.31.45.173');
+app.listen(8080, () => console.log('Server running on port 8080'))
 });
